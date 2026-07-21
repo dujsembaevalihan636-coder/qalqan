@@ -31,9 +31,6 @@ npm run dev
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | фронт | публичный ключ (чтение) |
 | `SUPABASE_SERVICE_ROLE_KEY` | **только сервер** | запись репортов в обход RLS |
 
-> ⚠️ Ключ Anthropic и service-role Supabase используются **только** в
-> `app/api/**/route.ts` и никогда не попадают в браузер.
-
 ## Supabase
 
 1. Создай проект на supabase.com.
