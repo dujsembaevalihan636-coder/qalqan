@@ -31,12 +31,6 @@ npm run dev
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | фронт | публичный ключ (чтение) |
 | `SUPABASE_SERVICE_ROLE_KEY` | **только сервер** | запись репортов в обход RLS |
 
-## Supabase
-
-1. Создай проект на supabase.com.
-2. В SQL Editor выполни `supabase/schema.sql`, затем `supabase/seed.sql`.
-3. Пропиши ключи в `.env.local` — приложение автоматически переключится с
-   in-memory на Supabase.
 
 ## Структура
 
